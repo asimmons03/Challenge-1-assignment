@@ -14,19 +14,19 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Horiseon header font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* "seo" in "Horiseon" color */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Fonts for all the links in header */
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -45,11 +45,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* paragraph text font size */
 p {
     font-size: 16px;
 }
-
+/* background image margins */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* margins and color for .benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,6 +84,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    box-shadow: 10px 10px 5px #a4a6a7;
 }
 
 .benefit-lead {
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* h2 text, image, and heading boxes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -141,6 +142,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    box-shadow: 10px 10px 5px #a4a6a7;
 }
 
 .online-reputation-management {
@@ -150,6 +152,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    box-shadow: 10px 10px 5px #a4a6a7;
 }
 
 .social-media-marketing {
@@ -159,8 +162,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    box-shadow: 10px 10px 5px #a4a6a7;
+    
 }
-
+/* Contains the imagine height */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +177,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Holds the font and location of the titles of images */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +192,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer heading and paragraph includes name of company and copyright by Horiseon*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +200,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
+    text-align: center;
 }
